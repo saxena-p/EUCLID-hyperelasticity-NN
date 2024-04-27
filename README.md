@@ -2,7 +2,7 @@
 **EUCLID** stands for *Efficient Unsupervised Constitutive Law Identification and Discovery*. Visit the [project website](https://euclid-code.github.io/) to learn more and refer to the [online documentation](https://euclid-code.github.io/EUCLID-hyperelasticity-NN/mkdocs/site/) for more explanation on the individual software components. Within the scope of this project we developed NN-EUCLID:
 
 
-- Thakolkaran, P., Joshi, A., Zheng, Y., Flaschel, M., De Lorenzis, L., & Kumar, S. (2022, September). **NN-EUCLID: Deep-learning hyperelasticity without stress data**. *Journal of the Mechanics and Physics of Solids*, 105076. https://doi.org/10.1016/j.jmps.2022.105076
+- P. Thakolkaran, A. Joshi, Y. Zheng, M. Flaschel, L. De Lorenzis, & S. Kumar. **NN-EUCLID: Deep-learning hyperelasticity without stress data**. *Journal of the Mechanics and Physics of Solids*, , 169 (2022) 105076. https://doi.org/10.1016/j.jmps.2022.105076
 
 A typo correction in the original article is described here: https://github.com/EUCLID-code/EUCLID-hyperelasticity-NN/blob/main/nn-euclid-corrections.pdf.
 
