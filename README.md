@@ -4,6 +4,8 @@
 
 - Thakolkaran, P., Joshi, A., Zheng, Y., Flaschel, M., De Lorenzis, L., & Kumar, S. (2022, September). **NN-EUCLID: Deep-learning hyperelasticity without stress data**. *Journal of the Mechanics and Physics of Solids*, 105076. https://doi.org/10.1016/j.jmps.2022.105076
 
+A typo correction in the original article is described here: https://github.com/EUCLID-code/EUCLID-hyperelasticity-NN/blob/main/nn-euclid-corrections.pdf.
+
 
 NN-EUCLID is a deep-learning based framework to learn hidden material models using full-field displacement and global reaction force measurements. Below we give an overview of the framework: (a,b) Point-wise displacements and reaction forces are recorded for a hyperelastic specimen under quasi-static deformation. Using the point-wise displacements and a finite element mesh of the domain (c), continuous displacement and strain fields are obtained (d,e). An ensemble of physics-consistent ICNN-based constitutive models (f) map the strain fields to stress fields (evaluated at the quadrature point of each element) (g). The stress fields are used to compute the internal and external nodal forces (h,i). Based on the weak form of the conservation of linear momentum, the residual forces are minimized (j) — point-wise for the free degrees of freedom (h) and aggregated for the fixed degrees of freedom (under each set of Dirichlet constraint with a measured reaction force) (i). The optimization is carried out iteratively to train the parameters of the ICNN-based constitutive models (f).
 
